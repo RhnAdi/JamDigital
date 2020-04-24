@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background-image: url(hutan.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kalimat {
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 30vh;
+}
+.kalimatnya {
+    text-align: center;
+}
+
+.kalimatnya p {
+    font-size: 40px;
+}
+
+.kalimatnya .jam {
+    font-size: 70px;
+    text-overflow: clip;
+    margin-bottom: 20px;
+}
+.animasi-teks {
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: typing 5s steps(70, end);
+    animation: animasi-ketik 5s steps(70, end);
+  }
+  
+  @keyframes animasi-ketik{
+    from { width: 0; }
+  }
+  
+  @-webkit-keyframes animasi-ketik{
+    from { width: 0; }
+  }
